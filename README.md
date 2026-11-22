@@ -21,12 +21,12 @@ Traditional quality control in metal casting relies heavily on manual visual ins
 ## Dataset & Inference Results
 
 ### 1. Annotated Casting Defect Dataset (~1,600 Images)
-Sample training frames from the custom-annotated casting dataset showing ground-truth bounding boxes around surface pits, edge chipping, and structural irregularities[cite: 16, 17]:
+Sample training frames from the custom-annotated casting dataset showing ground-truth bounding boxes around surface pits, edge chipping, and structural irregularities:
 
 ![Annotated Casting Defect Dataset](Datasets.jpg)
 
 ### 2. Real-Time Detection Output (`scanner.py`)
-Live YOLOv8n + OpenCV inference localizing a surface casting defect with confidence score overlay[cite: 16, 18]:
+Live YOLOv8n + OpenCV inference localizing a surface casting defect with confidence score overlay:
 
 <img src="Defect%20captured.jpg" alt="YOLOv8n Defect Detection Result" width="420"/>
 
